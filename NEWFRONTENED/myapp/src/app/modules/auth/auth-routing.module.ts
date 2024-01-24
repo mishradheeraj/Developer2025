@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
 import { CreateaccountComponent } from './createaccount/createaccount.component';
 import { ForgetComponent } from './forget/forget.component';
 
@@ -9,10 +8,6 @@ const routes: Routes = [
   {
     path:'',
     component:LoginComponent
-  },
-  {
-    path:'another',
-    component:RegisterComponent
   },
   {
     path:'create',
