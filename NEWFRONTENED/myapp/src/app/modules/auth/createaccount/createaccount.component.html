@@ -71,7 +71,7 @@
                         <label>Confirm Password:**</label>
                         <input type="text" name="" placeholder="Enter Repassword" class="dark_input" autocomplete="off"
                             formControlName="user_repass" [ngClass]="{'is-invalid':submitted && f.user_repass.errors}">
-                            <div *ngIf="submitted && f.user_repass.errors">
+                            <div *ngIf="submitted && f.user_repass.errors"> 
                                 <section *ngIf="submitted && f.user_repass.errors" class="errormsg">
                                     <span *ngIf="f.user_repass.errors.required" class="g-0 err">user_repass not required</span>
                                     <span *ngIf="f.user_repass.errors.maxlength" class="g-0 err">user_repass is maxlenth 25</span>
