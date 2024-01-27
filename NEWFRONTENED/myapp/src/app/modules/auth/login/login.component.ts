@@ -15,7 +15,7 @@ export class LoginComponent {
     checkbox:new FormControl ([false, Validators.requiredTrue])
   });
 
-  //this is the error returne fun
+  //this is the error returne funy
 
   get f(): any {
     return this.mylogin.controls;
